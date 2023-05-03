@@ -6,7 +6,7 @@ import {
 } from "next";
 import { prisma } from "~/server/db";
 import { Alert, Button, Typography } from "antd";
-import { useSocket, useUuid } from "../../util/general";
+import { useSocket } from "../../util/general";
 import { useState } from "react";
 import RemoteComponent from "../../RemoteComponent";
 
